@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 style="color: green;">Student Registration Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal details</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" required id="fname" name="fname">
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" required id="lname" name="lname">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" required id="email" name="email">
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" required id="dob" name="dob">
+            <br><br>
+
+            <label for="mobile">Mobile No:</label>
+            <input type="text" required id="mobile" name="mobile">
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            
+            <input type="radio" id="male" name="ge" >
+            <label for="male">Male</label>
+
+            <input type="radio" id="fmale" name="ge" >
+            <label for="fmale">Female</label>
+            <br><br>
+
+            <label for="addr">Address:</label>
+            <textarea name="adde" id="" cols="30" rows="10" placeholder="current address"></textarea>
+            <br><br>
+
+            <label for="city">City:</label>
+            <input type="text" required id="city" name="city">
+            <br><br>
+
+            <label for="state">State:</label>
+            <input type="text" required id="state" name="state">
+            <br><br>
+
+            <label for="country">Coutry:</label>
+            <input type="text" required id="country" name="country">
+            <br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Educational details</legend>
+
+        <label for="study"> Highest Qualification:</label><br>
+        <input list="qualification" id="study" name="study">
+        <datalist id="qualification">
+            <option>Diploma</option>
+            <option>Bachelor of Engineering</option>
+            <option>M.tech</option>
+        </datalist>
+        <br><br>
+
+    <label for="dept">Department:</label><br>
+
+     <input type="radio" id="cs" name="dept">
+     <label for="cs" class="dept">CSE</label>
+    
+     <input type="radio" id="ec" name="dept">
+     <label for="ec" class="dept">ECE</label>
+
+     <input type="radio" id="civil" name="dept">
+     <label for="civil" class="dept">CIVIL</label>
+     
+     <input type="radio" id="mech" name="dept">
+     <label for="mech" class="dept">MECH</label>
+     
+     <input type="radio" id="eee" name="dept">
+     <label for="eee" class="dept">EEE</label>
+     <br><br>
+
+     <label for="skill">SKILLS:</label><br>
+     
+     <input type="checkbox" id="html">
+     <label for="html" class="skill">HTML</label>
+     <br>
+     
+     <input type="checkbox" id="css">
+     <label for="css" class="skill">CSS</label>
+     <br>
+
+     <input type="checkbox" id="js">
+     <label for="js" class="skill">Java Script</label>
+     <br>
+
+     <input type="checkbox" id="py">
+     <label for="py" class="skill">Python</label>
+     <br>
+
+     <input type="checkbox" id="java">
+     <label for="java" class="skill">Java</label>
+     <br>
+
+     <input type="checkbox" id="other">
+     <label for="other" class="skill">Others</label>
+     <input type="text" id="other" name="other">
+     <br><br>
+ </fieldset><br>
+
+ <input type="submit" value="Submit">
+ <input type="reset" value="Reset">
+    </form>
+    
+</body>
+</html>

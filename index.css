@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 50%;
+    height: 30px;
+    align-content: center;
+    margin: auto;
+    
+}
+
+.container {
+    width: 10%;
+    margin: 0 auto;
+    background: red;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+form {
+    padding: 20px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    background-color: pink;
+}
+
+legend {
+    font-size: x-large;
+    color: black;
+
+}
+
+label {
+    font-weight: bold;
+    color: blue;
+}
+
+
+label[for="cs"].dept,
+label[for="ec"].dept,
+label[for="civil"].dept,
+label[for="mech"].dept,
+label[for="eee"].dept 
+{
+  color: black;
+}
+
+label[for="html"].skill,
+label[for="css"].skill,
+label[for="js"].skill,
+label[for="java"].skill,
+label[for="py"].skill,
+label[for="other"].skill
+{
+    color: black;
+}
+
+
+
+
+
+
+input[type="text"],
+input[type="email"] {
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: green ;
+}
+
+input[type="reset"]:hover {
+    background-color: green ;
+}
